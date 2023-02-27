@@ -1,0 +1,175 @@
+/* 
+colors: 
+  body background: #0c122c
+  card background: #1d2c67
+*/
+
+body {
+  text-align: center;
+  background-color: #111;
+  min-height: 100%;
+  font-family: sans-serif;
+}
+
+.exercise {
+  width: 847px;
+  height: 465px;
+
+  position: relative;
+  margin: 10px auto;
+
+  background-color: #0c122c;
+
+  background-image: url(../assets/images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+
+}
+
+/* FYLO OPTIONS */
+/* ************ */
+
+.fylo {
+  width: 210px;
+  height: 130px;
+
+  position: absolute;
+  left: 150px;
+  bottom: 200px;
+
+  background-color: #1d2c67;
+  border-radius: 10px 80px 10px 10px;
+}
+
+.logo-fylo {
+  height: 30px;
+  width: auto;
+
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.option {
+  width: 30px;
+  height: 30px;
+
+  background-color: #0c122c;
+  border-radius: 7px;
+
+  position: absolute;
+  bottom: 25px;
+}
+
+[class*="-img"] /* uso esto para no poner las 3 clases (.document-img, .folder-img, .cloud-img) pero no estoy segura de si es peor práctica */ {
+  width: 15px;
+  text-align: center;
+
+  position: relative;
+}
+
+.document {
+  left: 25px;
+}
+
+.document-img {
+  top: 5px;
+}
+
+.folder {
+  left: 65px;
+}
+
+.folder-img {
+  top: 8px;
+}
+
+.cloud {
+  left: 105px;
+}
+
+.cloud-img {
+  top: 7px;
+}
+
+/* STORAGE */
+/* ******* */
+
+.storage-left {
+  position: absolute;
+  left: 385px;
+  bottom: 200px;
+
+  width: 340px;
+  height: 100px;
+  border-radius: 10px;
+
+  background-color: #1d2c67;
+  color: white;
+
+  font-size: 10px;
+  text-align: left;
+}
+
+.gb-left {
+  font-size: 25px;
+  font-weight: 800;
+
+  background-color: white;
+  color: #1d2c67;
+
+  position: absolute;
+  right: -40px;
+  top: -50px;
+
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.small-text {
+  font-size: 13px;
+  font-weight: 600;
+
+  position: relative;
+  bottom: 3px;
+}
+
+.used-storage-text {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.total-storage-bar {
+  width: 265px;
+  height: 12px;
+  border-radius: 6px;
+
+  background-color: #0c122c;
+
+  position: absolute;
+  top: 55px;
+  left: 25px;
+}
+
+.used-storage-bar {
+  width: 190px;
+  height: 12px;
+  border-radius: 6px;
+
+  background-color: #d76cd7;
+  position: inherit;
+}
+
+.storage-number-0 {
+  position: absolute;
+  top: 65px;
+  left: 25px;
+}
+
+.storage-number-full {
+  position: absolute;
+  top: 65px;
+  left: 265px;
+}
