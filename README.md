@@ -12,8 +12,8 @@ El objetivo de esta práctica es replicar la imagen superior utilizando los dist
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
-A utilizar los posicionamientos de CSS.
-Y a utilizar clases para referirme a los elementos del HTML dentro de CSS.
+A utilizar los posicionamientos de CSS. </br>
+Y como buenas prácticas, a utilizar clases para referirme a los elementos del HTML dentro de CSS.
 
 ## Tecnologías 🛠
 
