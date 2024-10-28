@@ -4,7 +4,7 @@
 
 ## Ejemplo en vivo
 
-- [URL-de-github-pages-de-este-proyecto](https://raquel-castillejo.github.io/001-position1/)
+- [raquel-castillejo.github.io/practica-con-position-1/](https://raquel-castillejo.github.io/practica-con-position-1/)
 
 ## Descripción 📑
 
